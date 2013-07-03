@@ -4,5 +4,5 @@ layout: post
 ---
 
 ## A New Post\n\nEnter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
-add text for test
+add text for text
 ![](/assets/images/7up.png)
