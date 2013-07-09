@@ -1,11 +1,10 @@
 ---
 layout: default
-title: ISSST Site
 ---
 
 {% assign t = site.tags.translations[0] %}
 <div id="home">
-  <h1>{{t.[page.lang].index.news}}</h1>
+  <h2>{{t.[page.lang].index.news}}</h2>
   <ul class="posts">
     {% for post in site.posts %}
       {% if post.lang == page.lang %}

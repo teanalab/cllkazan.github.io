@@ -1,0 +1,12 @@
+.site a.pure-menu-heading {
+  color: #a00;
+  padding-left: 0;
+}
+
+.site a.pure-menu-heading:hover {
+  color: #000;
+}
+
+ul.posts {
+  padding-left: 0;
+}
