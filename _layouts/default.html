@@ -34,7 +34,7 @@
                 {% if page.lang == 'ru' %}
                   <li><a class="extra pure-button pull-right" data-lang='en' href='/en{{page.url | remove: 'index.html'}}'>English</a></li>
                 {% else %}
-                  <li><a class="extra pure-button pull-right" data-lang='ru' href='{{page.url | replace_first:'/en', ''}}'>Русский</a></li>
+                  <li><a class="extra pure-button pull-right" data-lang='ru' href='{{page.url | replace_first:'/en', '' | remove: 'index.html'}}'>Русский</a></li>
                 {% endif %}
               </ul>
             </div>
