@@ -10,3 +10,8 @@
 ul.posts {
   padding-left: 0;
 }
+
+.lang-button {
+  float: right;
+  margin-top: 15px;
+}

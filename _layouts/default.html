@@ -31,12 +31,12 @@
                 <li><a href="{{lang}}/">{{t.[page.lang].menu.news}}</a></li>
                 <li><a href="{{lang}}/projects">{{t.[page.lang].menu.projects}}</a></li>
                 <li><a href="{{lang}}/people">{{t.[page.lang].menu.people}}</a></li>
-                {% if page.lang == 'ru' %}
-                  <li><a class="extra pure-button pull-right" data-lang='en' href='/en{{page.url | remove: 'index.html'}}'>English</a></li>
-                {% else %}
-                  <li><a class="extra pure-button pull-right" data-lang='ru' href='{{page.url | replace_first:'/en', '' | remove: 'index.html'}}'>Русский</a></li>
-                {% endif %}
               </ul>
+              {% if page.lang == 'ru' %}
+                <a class="lang-button pure-button" data-lang='en' href='/en{{page.url | remove: 'index.html'}}'>English</a>
+              {% else %}
+                <a class="lang-button pure-button" data-lang='ru' href='{{page.url | replace_first:'/en', '' | remove: 'index.html'}}'>Русский</a>
+              {% endif %}
             </div>
 
                 {{ content }}
