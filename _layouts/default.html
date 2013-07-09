@@ -31,6 +31,11 @@
               <a class="extra" href="{{lang}}/">{{t.[page.lang].menu.news}}</a>
               <a class="extra" href="{{lang}}/projects">{{t.[page.lang].menu.projects}}</a>
               <a class="extra" href="{{lang}}/people">{{t.[page.lang].menu.people}}</a>
+              {% if page.lang == 'ru' %}
+                <a class="extra" data-lang='en' href='/en{{page.url | remove: 'index.html'}}'>English</a>
+              {% else %}
+                <a class="extra" data-lang='ru' href='{{page.url | replace_first:'/en', ''}}'>Русский</a>
+              {% endif %}
             </div>
 
                 {{ content }}
