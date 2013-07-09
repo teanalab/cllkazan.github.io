@@ -1,6 +1,7 @@
 .site a.pure-menu-heading {
   color: #a00;
   padding-left: 0;
+  text-transform: none;
 }
 
 .site a.pure-menu-heading:hover {
