@@ -1,0 +1,19 @@
+---
+published: true
+ru:
+  menu:
+    news: новости
+    projects: проекты
+    people: коллектив
+  index:
+    news: Новости
+en:
+  menu:
+    news: news
+    projects: projects
+    people: people
+  index:
+    news: News
+tag: translations
+---
+

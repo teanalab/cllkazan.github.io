@@ -1,4 +1,13 @@
+{% assign t = site.tags.translations[0] %}
+
+{% if page.lang == 'ru' %}
+  {% assign lang = '' %}
+{% else %}
+  {% capture lang %}/{{page.lang}}{% endcapture %}
+{% endif %}
+
 <!DOCTYPE html>
+<html lang='{{page.lang}}'>
 <html>
     <head>
         <meta charset="utf-8">
@@ -18,10 +27,10 @@
         <div class="container">
           <div class="site">
             <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">новости</a>
-              <a class="extra" href="/projects">проекты</a>
-              <a class="extra" href="/people">коллектив</a>
+              <h1 class="title"><a href="{{lang}}/">{{ site.name }}</a></h1>
+              <a class="extra" href="{{lang}}/">{{t.[page.lang].menu.news}}</a>
+              <a class="extra" href="{{lang}}/projects">{{t.[page.lang].menu.projects}}</a>
+              <a class="extra" href="{{lang}}/people">{{t.[page.lang].menu.people}}</a>
             </div>
 
                 {{ content }}
