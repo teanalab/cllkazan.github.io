@@ -1,31 +1,29 @@
 name: ISSST Lab
 pygments: true
+languages: &languages
+  - name: 'Русский'
+    value: 'ru'
+  - name: 'English'
+    value: 'en'
 prose:
+  media: 'assets' # TODO: maybe this isn't need
+  siteurl: "http://cll.niimm.ksu.ru:8082"
   metadata:
-    _posts:
-      - name: "categories"
-        field:
-          element: "hidden"
-          value:
-            - "post"
+    '':
       - name: "layout"
         field:
           element: "text"
           label: "Layout"
           value: "default"
-      - name: "order"
+      - name: "title"
         field:
-          element: "number"
-          label: "Order"
-          value: 0
-      - name: "item"
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "lang"
         field:
           element: "select"
-          label: "Item"
-          placeholder: "Select an Item"
-          options:
-            - name: "Item 1"
-              value: "item1"
-            - name: "Item 2"
-              value: "item2"
-          selected: "item2"
+          label: "Select language"
+          placeholder: "Русский"
+          options: *languages
+          selected: "ru"
