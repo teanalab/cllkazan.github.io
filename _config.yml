@@ -24,3 +24,23 @@ prose:
         field:
           element: "hidden"
           value: "ru"
+    en:
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          value: "default"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "lang"
+        field:
+          element: "hidden"
+          value: "en"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value:
+            - "en"
