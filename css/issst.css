@@ -26,3 +26,10 @@ ul.posts {
 .member-photo-container img {
   margin-top: 4em;
 }
+
+/* fix for pure.css grid firefox bug, see
+/* https://github.com/yui/pure/issues/41 and
+/* https://github.com/yui/pure/issues/60 */
+.pure-g, .pure-g-r {
+  font-family: Arial;
+}
