@@ -1,10 +1,5 @@
 name: ISSST Lab
 pygments: true
-languages: &languages
-  - name: 'Русский'
-    value: 'ru'
-  - name: 'English'
-    value: 'en'
 prose:
   media: 'assets' # TODO: maybe this isn't need
   siteurl: "http://cll.niimm.ksu.ru:8082"
@@ -20,27 +15,14 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-      - name: "lang"
-        field:
-          element: "hidden"
-          value: "ru"
-    en:
+    _posts:
       - name: "layout"
         field:
           element: "text"
           label: "Layout"
-          value: "default"
+          value: "post"
       - name: "title"
         field:
           element: "text"
           label: "Title"
           value: ""
-      - name: "lang"
-        field:
-          element: "hidden"
-          value: "en"
-      - name: "categories"
-        field:
-          element: "hidden"
-          value:
-            - "en"
