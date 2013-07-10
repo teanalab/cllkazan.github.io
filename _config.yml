@@ -22,8 +22,5 @@ prose:
           value: ""
       - name: "lang"
         field:
-          element: "select"
-          label: "Select language"
-          placeholder: "Русский"
-          options: *languages
-          selected: "ru"
+          element: "hidden"
+          value: "ru"
