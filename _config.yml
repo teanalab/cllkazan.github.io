@@ -9,17 +9,6 @@ prose:
   media: 'assets' # TODO: maybe this isn't need
   siteurl: "http://cll.niimm.ksu.ru:8082"
   metadata:
-    "":
-      - name: "layout"
-        field:
-          element: "text"
-          label: "Layout"
-          value: "default"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
     _posts:
       - name: "layout"
         field:
