@@ -1,5 +1,5 @@
 name: ISSST Lab
-pygments: true
+markdown: rdiscount
 languages: &languages
   - name: 'Russian'
     value: 'ru'
