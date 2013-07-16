@@ -1,5 +1,10 @@
 name: ISSST Lab
 pygments: true
+languages: &languages
+  - name: 'Russian'
+    value: 'ru'
+  - name: 'English'
+    value: 'en'
 prose:
   media: 'assets' # TODO: maybe this isn't need
   siteurl: "http://cll.niimm.ksu.ru:8082"
