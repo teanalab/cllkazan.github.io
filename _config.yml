@@ -31,3 +31,10 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          placeholder: "Russian"
+          options: *languages
+          selected: "ru"
