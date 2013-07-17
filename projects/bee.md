@@ -22,7 +22,7 @@ lang: ru
 
 Соловьев В.Д. &mdash; руководитель проекта
 
-Гареев Р.М. &mdash; контактное лицо, [gareev-rm@yandex.ru](mailto:gareev-rm@yandex.ru)
+Гареев Р.М. &mdash; контактное лицо, <gareev-rm@yandex.ru>
 
 Иванов В.В.
 
