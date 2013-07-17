@@ -28,7 +28,7 @@ lang: ru
 
 ## Статьи, постеры, доклады об этом проекте
 
-1.  R.&nbsp;Gareev, M. Tkachenko, V. Solovyev, A. Simanovsky, V. Ivanov. Introducing Baselines for Russian Named Entity Recognition. LNCS. V.7816. 2013. P.329-342 
+1.  R\. Gareev, M. Tkachenko, V. Solovyev, A. Simanovsky, V. Ivanov. Introducing Baselines for Russian Named Entity Recognition. LNCS. V.7816. 2013. P.329-342 
 [http://link.springer.com/content/pdf/10.1007%2F978-3-642-37247-6_27.pdf](http://link.springer.com/content/pdf/10.1007%2F978-3-642-37247-6_27.pdf)
 2.  Solovyev V., Ivanov V., Gareev R., Serebryakov S., Vassilieva N. Dictionary and pattern-based recognition of organization names in Russian news texts. HP Laboratories Technical report. HPL-2013-14. 2013. [http://www.hpl.hp.com/techreports/2013/HPL-2013-14.html](http://www.hpl.hp.com/techreports/2013/HPL-2013-14.html)
 3.  Соловьев В.Д. Технологии извлечения из текстов информации о событиях в реальном времени. Нейрокомпьютеры: разработка, применение. №1, 2013, с. 23-30. [http://www.radiotec.ru/catalog.php?cat=jr7&art=12341](http://www.radiotec.ru/catalog.php?cat=jr7&art=12341)
