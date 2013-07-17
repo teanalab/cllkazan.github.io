@@ -11,7 +11,7 @@
     categories:
       - en
     ```
-1.  С помощью редактора заполняем содержимым в формате [Markdown](http://daringfireball.net/projects/markdown/basics).
+1.  С помощью редактора заполняем содержимым в формате [Markdown](http://en.wikipedia.org/wiki/Markdown).
 1.  Жмем **Unpublished**, чтобы пост был опубликован (если не надо пока публиковать, можно оставить неопубликованным).
 1.  Жмем справа *Save*, жмем **COMMIT**.
 
