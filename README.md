@@ -1,7 +1,7 @@
 ## Как добавить пост
 
-1.  Идем [сюда](http://prose.io/#CLLKazan/issst-site/tree/master/_posts) для создания русских постов,
-[cюда](http://prose.io/#CLLKazan/issst-site/tree/master/_posts/en) для создания английских.
+1.  Идем [сюда](http://prose.io/#CLLKazan/cllkazan.github.io/tree/master/_posts) для создания русских постов,
+[cюда](http://prose.io/#CLLKazan/cllkazan.github.io/tree/master/_posts/en) для создания английских.
 1.  Жмем *New File* сверху справа.
 1.  Вводим сверху имя файла в формате дата-название (латиницей, должно совпадать для версий одного поста на разных языках).
 1.  Жмем справа кнопку *Meta Data*, заполняем там **Title** (название поста на нужном языке), выбираем язык.
