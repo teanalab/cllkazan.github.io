@@ -44,6 +44,7 @@ title: {<title> страницы}
 При возникновении проблем рекомендуется обратиться к [документации Jekyll](http://jekyllrb.com/docs/home/).
 
 ## Как заливать файлы
+<del>
 1.  Любым ftp клиентом коннектимся на ftp://issst.itis.kpfu.ru.
 Данные для входа спросите у кого-нибудь, например, у меня: fsqcds@gmail.com
 2.  Заливаете файлы в соответствующие поддиректории issst-site-assets.
@@ -53,8 +54,12 @@ title: {<title> страницы}
     <img src="/assets/images/people/solovyev.jpg" />
     ```
     
-    или так (markdown ссылки к pdf)
+    или так (markdown ссылки к pdf)drag n drop
     
     ```markdown
     [публикация](/assets/pub/article.pdf)
     ```
+</del>
+* Картинки в посты можно добавлять простым drag-n-drop в prose.io. Просто перетащите картинку в нужное место в markdown. Диаалог похоже сломан в данный момент https://github.com/prose/prose/issues/566
+* Можно добавить файл в /assets используя git.
+* Можно просто хранить файл в другом месте и ссылаться туда.
