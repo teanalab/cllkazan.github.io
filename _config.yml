@@ -1,29 +1,2 @@
 name: TEANA Lab
 markdown: rdiscount
-languages: &languages
-  - name: 'Russian'
-    value: 'ru'
-  - name: 'English'
-    value: 'en'
-prose:
-  media: 'assets' # TODO: maybe this isn't need
-  siteurl: "http://cll.niimm.ksu.ru:8082"
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "text"
-          label: "Layout"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "lang"
-        field:
-          element: "select"
-          label: "Select language"
-          placeholder: "Russian"
-          options: *languages
-          selected: "ru"

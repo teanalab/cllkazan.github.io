@@ -1,13 +1,4 @@
-{% assign t = site.tags.translations[0] %}
-
-{% if page.lang == 'ru' %}
-  {% assign lang = '' %}
-{% else %}
-  {% capture lang %}/{{page.lang}}{% endcapture %}
-{% endif %}
-
 <!DOCTYPE html>
-<html lang='{{page.lang}}'>
 <html>
     <head>
         <meta charset="utf-8">
@@ -28,15 +19,10 @@
             <div class="pure-menu pure-menu-open pure-menu-horizontal">
               <a class="pure-menu-heading" href="{{lang}}/"><h1>{{ site.name }}</h1></a>
               <ul>
-                <li><a href="{{lang}}/">{{t.[page.lang].menu.news}}</a></li>
-                <li><a href="{{lang}}/projects">{{t.[page.lang].menu.projects}}</a></li>
-                <li><a href="{{lang}}/people">{{t.[page.lang].menu.people}}</a></li>
+                <li><a href="/">News</a></li>
+                <li><a href="{{lang}}/projects">Projects</a></li>
+                <li><a href="{{lang}}/people">People</a></li>
               </ul>
-              {% if page.lang == 'ru' %}
-                <a class="lang-button pure-button" data-lang='en' href='/en{{page.url | remove: 'index.html'}}'>English</a>
-              {% else %}
-                <a class="lang-button pure-button" data-lang='ru' href='{{page.url | replace_first:'/en', '' | remove: 'index.html'}}'>Русский</a>
-              {% endif %}
             </div>
 
                 {{ content }}
@@ -45,12 +31,13 @@
               <div class="contact">
                 <p>
                   TEANA Lab<br />
-                  issst-email@example.com
+                  teana-email@example.com
                 </p>
               </div>
               <div class="contact">
                 <p>
-                  <a href="https://github.com/CLLKazan/">https://github.com/CLLKazan/</a><br />
+                  <a
+                    href="https://github.com/teanalab/">https://github.com/teanalab/</a><br />
                 </p>
               </div>
             </div>

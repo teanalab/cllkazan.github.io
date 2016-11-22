@@ -4,12 +4,10 @@ layout: default
 
 {% assign t = site.tags.translations[0] %}
 <div id="home">
-  <h2>{{t.[page.lang].index.news}}</h2>
+  <h2>News</h2>
   <ul class="posts">
     {% for post in site.posts %}
-      {% if post.lang == page.lang %}
-        <li><span>{{ post.date | date: "%d.%m.%Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endif %}
+      <li><span>{{ post.date | date: "%d.%m.%Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
