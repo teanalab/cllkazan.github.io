@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Проекты
+title: Buisiness Event Extraction
 ---
 
 # Business event extraction from russian news feeds
