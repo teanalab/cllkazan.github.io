@@ -1,65 +1,19 @@
-## Как добавить пост
+## How to edit site and see changes locally after editing
 
-1.  Идем [сюда](http://prose.io/#CLLKazan/cllkazan.github.io/tree/master/_posts) для создания русских постов,
-[cюда](http://prose.io/#CLLKazan/cllkazan.github.io/tree/master/_posts/en) для создания английских.
-1.  Жмем *New File* сверху справа.
-1.  Вводим сверху имя файла в формате дата-название (латиницей, должно совпадать для версий одного поста на разных языках).
-1.  Жмем справа кнопку *Meta Data*, заполняем там **Title** (название поста на нужном языке), выбираем язык.
-1.  Для английских постов в **Raw Metadata** нужно вставить
+  Clone repo and edit it using any text editor.  Install
+  [jekyll](http://jekyllrb.com/) (in Ubuntu you can just type `apt install
+  jekyll`) and run `jekyll serve` in repo directory.
 
-    ```yaml
-    categories:
-      - en
-    ```
-1.  С помощью редактора заполняем содержимым в формате [Markdown](http://en.wikipedia.org/wiki/Markdown).
-1.  Жмем **Unpublished**, чтобы пост был опубликован (если не надо пока публиковать, можно оставить неопубликованным).
-1.  Жмем справа *Save*, жмем **COMMIT**.
+## I don't understand how it works
 
-## Работа с остальной частью сайта
-
-Остальная часть сайта (не посты) представлена в виде обычного HTML либо Markdown, работать с которыми тоже можно из [prose](http://prose.io/#CLLKazan/cllkazan.github.io).
-В корне лежит русская версия сайта, в /en/ английская. Каждая страница должна присутствовать и там, и там.
-
-У русских страниц в metadata должно присутствовать:
-
-```yaml
-lang: ru
-```
-
-У английских:
-
-```yaml
-lang: en
-categories:
-  - en
-```
-
-Также в metadata (лучше в начале) должно быть
-
-```yaml
-layout: default
-title: {<title> страницы}
-```
-
-При возникновении проблем рекомендуется обратиться к [документации Jekyll](http://jekyllrb.com/docs/home/).
-
-## Как заливать файлы
-<del>
-1.  Любым ftp клиентом коннектимся на ftp://issst.itis.kpfu.ru.
-Данные для входа спросите у кого-нибудь, например, у меня: fsqcds@gmail.com
-2.  Заливаете файлы в соответствующие поддиректории issst-site-assets.
-3.  Все, ваши файлы доступны по адресам http://issst.itis.kpfu.ru/assets/{путь_к_файлу_относительно_issst-site-assets}. На них можно ссылаться в страничках сайта с помощью относительных путей, например, так (html картинки):
-
-    ```html
-    <img src="/assets/images/people/solovyev.jpg" />
-    ```
-    
-    или так (markdown ссылки к pdf)drag n drop
-    
-    ```markdown
-    [публикация](/assets/pub/article.pdf)
-    ```
-</del>
-* Картинки в посты можно добавлять простым drag-n-drop в prose.io. Просто перетащите картинку в нужное место в markdown. Диалог похоже сломан в данный момент https://github.com/prose/prose/issues/566
-* Можно добавить файл в /assets используя git.
-* Можно просто хранить файл в другом месте и ссылаться туда.
+  GitHub supports Jekyll sites
+  (https://help.github.com/articles/about-github-pages-and-jekyll/) out of the
+  box. To understand file oganization, read Jekyll
+  [documentation](http://jekyllrb.com/docs/home/). You don't need to understand
+  Jekyll to contribute to the site, but you need to understand HTML and
+  Markdown. You can just edit existing content or create new content using
+  existing content as a template. For example, you can create new post by
+  copying existing post `.md` file in `_posts` and making appopriate changes.
+  You can create new project by copying existing `.md` file in `projects` and
+  adding link to it in `projects/index.html`. You can also try to use
+  [prose](http://prose.io/) for editing, buy it's not recommended.
